@@ -31,6 +31,9 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 
+# Заполнение таблиц данными
+python manage.py init_permissions
+
 # Создание суперпользователя
 python manage.py createsuperuser
 
